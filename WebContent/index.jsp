@@ -17,7 +17,7 @@ a { padding-left:10px; }
 <body style="background:url('bg_mint.png') repeat; ">
 <div style="margin:20% 0 20% 0;">
 <hr />
-<h1 style="text-align:center; "><a href="inmygarden.jsp">시연페이지</a></h1>
+<h1 style="text-align:center; "><a href="inmygarden.main">시연페이지</a></h1>
 <hr />
 </div>
 </body>
