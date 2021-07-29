@@ -62,6 +62,9 @@ public class OrderCtrl extends HttpServlet {
     		case "/order_form.ord" :	// 결제 폼 화면 처리
     			action = new OrderFormAct();
     			break;
+    		case "/order_proc.ord" :	// 결제 처리후 결제완료 폼
+    			action = new OrderProcAct();
+    			break;
     		case "/order_view.ord" :	// 결제 처리후 결제완료 폼
     			action = new OrderViewAct();
     			break;

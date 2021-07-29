@@ -1155,5 +1155,55 @@ public class OrderDao {
 
 				return orderList;
 			}
+			
+	public OrderInfo getOrderValue(String oiid, String miid) {
+	// 결제완료창에서 결제정보 불러오기
+		OrderInfo order = null;	
+		Statement stmt = null;
+		ResultSet rs = null;
+		try {
+			stmt = conn.createStatement();
+			String sql = 
+					"	SELECT a.* " + 
+					"	FROM t_order_info a " + 
+					" 	WHERE a.oi_id = '"+ oiid +"' " + 
+					" 	and a.mi_id = '"+ miid +"'";
+			
+			System.out.println(sql);
+			rs = stmt.executeQuery(sql);
+
+			if (rs.next()) {	
+				order = new OrderInfo();
+				
+				order.setOi_name(rs.getString("oi_name"));
+				order.setOi_phone(rs.getString("oi_phone"));
+				order.setOi_email(rs.getString("oi_email"));
+				order.setOi_receiver(rs.getString("oi_receiver"));
+				order.setOi_recphone(rs.getString("oi_recphone"));
+				order.setOi_zip(rs.getString("oi_zip"));
+				order.setOi_addr1(rs.getString("oi_addr1"));
+				order.setOi_addr2(rs.getString("oi_addr2"));
+				order.setOi_payment(rs.getString("oi_payment"));
+				order.setOi_status(rs.getString("oi_status"));
+				order.setOi_cmt(rs.getString("oi_cmt"));
+				order.setOi_invoice(rs.getString("oi_invoice"));
+				order.setOi_date(rs.getString("oi_date"));
+				order.setOi_modify(rs.getString("oi_modify"));
+				
+				order.setOi_pay(rs.getInt("oi_pay"));
+				order.setOi_usepnt(rs.getInt("oi_usepnt"));
+				order.setOi_delipay(rs.getInt("oi_delipay"));
+				order.setOi_totalpay(rs.getInt("oi_totalpay"));
+			}
+
+		} catch(Exception e) {
+			System.out.println("getOrderValue() 메소드 오류");
+			e.printStackTrace();
+		} finally {
+			close(rs);	close(stmt);
+		}
+
+		return order;
+	}
 		
 }
