@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* 주문관련 공통 */
+table { table-layout: fixed; }
+table th { font-size:15px; }
+table td { font-size:13px; }
+.btn { background:lightgray; border:1px solid black; margin:0px; cursor:pointer; }
+.btn:hover { background:whiteSmoke; }
+.btn:active { background:gray; }
+.btnLeft { width:100px; height:30px; }
+.btnRight { width:200px; height:60px; }
+
+.d_order_title ol { display:inline; list-style:none; margin:0; padding:0; float:right}
+.d_order_title li {	padding:0px 10px 20px 0px; border:0; float: left;}
+
+
+
+/* 장바구니 */
+#frmOrd { margin:0 auto; width:1080px; border:none; }
+.t_ordPdtInfo { 
+	border-right:1px soild black; padding:10px 20px 10px 0px; 
+	border-collapse: collapse; text-align:center; 
+}
+.t_ordPdtInfo th { 
+	background:whiteSmoke; border-bottom:1px solid black; border-top:1px solid black; 
+	padding:10px 20px 10px 0px; border-collapse: collapse; 
+}
+.t_ordPdtInfo td {	border-bottom:1px solid black; border-top:1px solid black; 
+	padding:10px 20px 10px 0px; border-collapse: collapse; 
+}
+#t_ordPriceInfo { border:1px solid black; padding:10px 30px 10px 0px; }
+#t_receiptInfo  { border:1px solid black; padding:10px 30px 10px 0px; }
+
+/* 견적서 */
+#d_receiptInfo th{ background:whiteSmoke; } 
+
+
+/* 주문상세정보 */
+#t_ordererInfo td { 
+	border-left:1px solid black; text-align:left; padding-left:10px; 
+	border-bottom:1px solid black; border-top:1px solid black;  border-collapse: collapse;	
+}
+#t_ordererInfo { border-right:1px soild black; padding:10px 30px 10px 0px; border-collapse: collapse; text-align:center; }
+#t_ordererInfo th {  background:whiteSmoke; border-bottom:1px solid black; border-top:1px solid black; padding:10px 30px 10px 0px; border-collapse: collapse; }
+#t_addrInfo td { border-left:1px solid black; text-align:left; padding-left:30px;
+	border-bottom:1px solid black; border-top:1px solid black; border-collapse: collapse; 
+}
+#t_addrInfo { border-right:1px soild black; padding:10px 30px 10px 0px; border-collapse: collapse; text-align:center; }
+#t_addrInfo th { background:whiteSmoke; border-bottom:1px solid black; border-top:1px solid black; padding:10px 30px 10px 0px; border-collapse: collapse; }
+
+#t_ordDetailInfo { border-right:1px soild black; padding-left:30px; border-collapse: collapse; text-align:center; }
+#t_ordDetailInfo th { background:whiteSmoke; }
+#t_ordDetailInfo th, #t_ordDetailInfo td {border-bottom:1px solid black; border-top:1px solid black; padding:10px 30px 10px 0px; border-collapse: collapse; }
+
+#t_payInfo td { border-left:1px solid black; text-align:left; padding-left:30px; 
+	border-bottom:1px solid black; border-top:1px solid black; border-collapse: collapse; 
+}
+#t_payInfo { border-right:1px soild black; padding:10px 30px 10px 0px; border-collapse: collapse; text-align:center; }
+#t_payInfo th { background:whiteSmoke; border-bottom:1px solid black; border-top:1px solid black; padding:10px 30px 10px 0px; border-collapse: collapse; }
+
+
+
+/* 주문서작성 및 결제 */
+#t_orderDetailInfo { border-right:1px soild black; padding:10px 20px 10px 0px; border-collapse: collapse; text-align:center; }
+#t_orderDetailInfo th { background:whiteSmoke;}
+#t_orderDetailInfo th, #t_orderDetailInfo td {border-bottom:1px solid black; border-top:1px solid black; padding:10px 20px 10px 0px; border-collapse: collapse; }
+
+#t_orderPrice { border:1px solid black; padding:10px 30px 10px 0px; }
+
+#t_ordererInfo { border-right:1px soild black; padding:10px 20px 10px 0px; border-collapse: collapse; text-align:center; }
+#t_ordererInfo th { background:whiteSmoke;}
+#t_ordererInfo th, #t_ordererInfo td {border-bottom:1px solid black; border-top:1px solid black; padding:10px 20px 10px 0px; border-collapse: collapse; }
+#t_ordererInfo td { border-left:1px solid black; text-align:left; padding-left:10px; }
+
+
+#t_addrInfo { border-right:1px soild black; padding:10px 20px 10px 0px; border-collapse: collapse; text-align:center; }
+#t_addrInfo th { background:whiteSmoke;}
+#t_addrInfo th, #t_addrInfo td {border-bottom:1px solid black; border-top:1px solid black; padding:10px 20px 10px 0px; border-collapse: collapse; }
+#t_addrInfo td { border-left:1px solid black; text-align:left; padding-left:10px; }
+
+#t_ordPrice { boder-right:1px solid black; border-left:1px solid black; }
+
+
+
+
+#t_payInfo { border-right:1px soild black; padding:10px 20px 10px 0px; border-collapse: collapse; text-align:center; }
+#t_payInfo th { background:whiteSmoke;}
+#t_payInfo th, #t_payInfo td {border-bottom:1px solid black; border-top:1px solid black; padding:10px 20px 10px 0px; border-collapse: collapse; }
+#t_payInfo td { border-left:1px solid black; text-align:left; padding-left:10px; }
+#frmOrd { margin:0 auto; width:1080px; border:none; }
+
+#t_ordPrice { border:1px solid black; padding:10px 30px 10px 0px; }
+
+#t_payOptionInfo1 { border-top:1px solid black; text-align:center; }
+#t_payOptionInfo2 { border-bottom:1px solid black; text-align:center; }
+
+.payInfo { border:1px solid black; padding:10px; margin:0px; border-collapse: collapse; }
+#t_myAddr td { border-bottom:1px solid black; border-collapse:collapse ; text-align:center; }
+
+
+/* 주문완료 */
+#t_orderView { border-right:1px soild black; padding:10px 20px 10px 0px; border-collapse: collapse; text-align:center; }
+#t_orderView th { background:whiteSmoke;}
+#t_orderView th, #t_orderView td {border-bottom:1px solid black; border-top:1px solid black; padding:10px 20px 10px 0px; border-collapse: collapse; }
+#t_orderView ol { list-style:none; padding:0; }
+#t_orderView td { border-left:1px solid black; text-align:left; padding-left:30px;  }
+

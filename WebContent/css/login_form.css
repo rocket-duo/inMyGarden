@@ -1,0 +1,14 @@
+.login_box {
+	display:inherit;
+	margin:150px auto;
+	height:200px;
+	position:relative;
+	width:300px;
+	height: 150px;
+}
+.login_box label{
+	font-size: 10px;
+}
+#submit_btn {
+	display:inline; position:absolute; right:15%; top:40%;
+}

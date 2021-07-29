@@ -1,0 +1,9 @@
+body {
+	margin:0 auto; font-size:16px; line-height:1.5; background:#fff;
+	color:#000; height:1400px; padding:0px; spacing:0px;
+}
+a { color:#000; }
+a:link { text-decoration: none; color:#000; }
+a:visited { color:#000; }
+a:hover { color:red; }
+a:active { color:blue; }

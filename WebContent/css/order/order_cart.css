@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* 장바구니 */
+.order_tit ol { display:inline; list-style:none; margin:0; padding:0; float:right}
+.order_tit li {	padding:0px 10px 20px 0px; border:0; float: left;}
+
+#frmOrd { margin:0 auto; width:1080px; border:0px; }
+.btn { background:white; border:1px solid black }
+.btn:hover { background:whiteSmoke; }
+.btn:active { background:lightgray; }
+.btnLeft { width:100px; height:30px; }
+.btnRight { width:200px; height:60px; }
+
+#t_ordInfo { border-right:1px soild black; padding:10px 30px 10px 0px; border-collapse: collapse; text-align:center; }
+#t_ordInfo th { background:whiteSmoke; }
+#t_ordInfo th, #t_ordInfo td {border-bottom:1px solid black; border-top:1px solid black; padding:10px 30px 10px 0px; border-collapse: collapse; }
+
+#t_ordPrice { border:1px solid black; padding:10px 30px 10px 0px; }
+
+
