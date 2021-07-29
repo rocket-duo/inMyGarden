@@ -97,7 +97,7 @@ $(document).ready(function() {
 </div>
 <hr class="headHr" />
 <br />
-<div align="center" style="margin:0 auto;"><a href="/inMyGarden/inmygarden.jsp">
+<div align="center" style="margin:0 auto;"><a href="/inMyGarden/inmygarden.main">
 	<img src="/inMyGarden/img/inMyGarden_logo.png" width="280" alt="메인 로고 이미지" /></a>
 </div>
 <br />
