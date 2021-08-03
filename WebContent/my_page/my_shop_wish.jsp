@@ -206,7 +206,7 @@ function hideOption(idx) {	// 박스 숨기기
 
 <div style="width:1080px; margin:0 auto !important; ">
 <a href="/inMyGarden/index.jsp">HOME</a> > <a href="">마이페이지</a> > 찜리스트<br /><br />
-<%@ include file="../inc_my_page_side_menu.jsp" %>
+<%@ include file="inc_my_page_side_menu.jsp" %>
 <div style="width:800px; margin:0 auto; display:inline-block;">
 <form name="frmWish"  action="" method="post">
 		<h2 style="display:inline;">찜리스트</h2>
