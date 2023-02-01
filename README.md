@@ -79,11 +79,14 @@
 
 ## 구현 기능
 
+<br>
+
 ### 기능 1 회원관련 - 강태훈<br>
 - 로그인 기능<br>
 ![image](https://user-images.githubusercontent.com/87980087/216031733-a06f5ae5-0d8b-4088-bdc6-8c9d56aa184c.png)<br>
 - 로그인 완료시 헤더에 회원명이 표시<br>
 ![image](https://user-images.githubusercontent.com/87980087/216031881-102af9d1-4a96-4434-8fa8-b285ad38e607.png)
+<br>
 
 ### 기능 2 메인페이지 - 박창주<br>
 - 헤더부분 목록을 jQuery를 사용하여 온마우스업, 온클릭 모션효과 구현
@@ -92,6 +95,8 @@
 <br>
 
 ![portfolio-1](https://user-images.githubusercontent.com/87980087/216025755-66be0fe3-4456-4be2-9f0c-66480b1cc2b7.jpg)
+
+<br>
 
 ### 기능 3 상품목록 - 박창주<br>
 - 검색필터 기능을 통해 상품분류/상품명/가격으로 조회하여 상품 표출 
@@ -108,6 +113,7 @@
 ![image](https://user-images.githubusercontent.com/87980087/216036181-332d3c98-bbda-4bad-b4af-403bd2db693d.png)
 
 <br>
+<br>
 
 ### 기능 5 장바구니페이지 - 배준호<br>
 - 장바구니에 추가한 상품 표출
@@ -120,6 +126,8 @@
 <br>
 - 견적서 출력 기능 (인쇄기능포함)<br>
 ![image](https://user-images.githubusercontent.com/87980087/216038021-534c45ba-8376-4fc2-8ff9-b092da72a37a.png)
+
+<br>
 <br>
 
 ### 기능 6 주문페이지 - 배준호<br>
@@ -134,7 +142,19 @@
 - 나의 배송지 관리 기능 (ajax를 통해 배송지 추가/수정/삭제)
 
 ![image](https://user-images.githubusercontent.com/87980087/216039502-ecfb6887-04ae-4dda-89ab-73504f2d59c8.png)
+
 <br>
+<br>
+
+### 기능 7 주문조회 - 배준호<br>
+
+- 주문완료를 통해 넘어온 정보 조회 날짜, 주문상태로 주문조회 가능
+
+![image](https://user-images.githubusercontent.com/87980087/216048822-4104e8f9-abf6-4cfb-9acb-2ead6cf8e015.png)
+
+- 주문번호 클릭 시 해당 주문번호 상세내역 조회
+
+![image](https://user-images.githubusercontent.com/87980087/216049625-50b7e44c-d6ad-4f14-a4de-160fd5f9a916.png)
 
 ## 배운 점 & 아쉬운 점
 
