@@ -1,6 +1,9 @@
 
 # inMyGarden
 
+<details>
+  <summary>프로젝트 소개 자세히보기</summary>
+
 <p align="center">
   <br>
   
@@ -148,4 +151,4 @@
   또, Spring framework를 통해 만들지 않고 jsp/servlet으로만 제작하게되어 아쉬운점이 많습니다.
 </p>
 
-<br>
+</details>
